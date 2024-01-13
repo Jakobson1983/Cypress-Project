@@ -6,7 +6,7 @@
 
 <h3>How to start:</h3>
 
-<h3>H1.Install Node JS</h3>
+<h3>1.Install Node JS</h3>
 
 <h3>2.Clone the project to your local machine:</h3>
 

@@ -1,4 +1,4 @@
-import '@testing-library/cypress/add-commands'
+import "@testing-library/cypress/add-commands";
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -25,8 +25,8 @@ import '@testing-library/cypress/add-commands'
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('login', (loginname, password) => {
-    cy.get("#loginFrm_loginname").type(loginname);
-      cy.get("#loginFrm_password").type(password);
-      cy.get("#loginFrm > fieldset > .btn").click();
-})
+Cypress.Commands.add("login", (loginname, password) => {
+  cy.get("#loginFrm_loginname").type(loginname);
+  cy.get("#loginFrm_password").type(password);
+  cy.get("#loginFrm > fieldset > .btn").click();
+});

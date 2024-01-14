@@ -1,0 +1,24 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "Project for Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open --e2e --browser chrome --config baseUrl=https://automationteststore.com",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "testing"
+  ],
+  "author": "Jakub Zytlinski",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/cypress": "^10.0.1",
+    "cypress": "^13.6.2"
+  },
+  "dependencies": {
+    "xpath.js": "^1.1.0"
+  }
+}

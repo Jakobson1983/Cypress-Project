@@ -14,9 +14,9 @@
 
 https://github.com/Jakobson1983/Cypress-Project.git
 
-<h3>3.In the terminal go to the folder with project and install Cypress:</h3>
+<h3>3.In the terminal go to the folder with project and install package Node.js:</h3>
 
-npm install cypress --save-dev
+npm install 
 
 <h3>4.Run Cypress by this command:</h3>
 

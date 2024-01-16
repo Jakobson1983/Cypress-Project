@@ -8,3 +8,7 @@ export const loginSelectors = {
   buttonLogin: '[title="Login"]',
   alertDanger: ".alert-danger",
 };
+
+export const checkbuySelectors = {
+  buttonMen: "#categorymenu > nav > ul > li.current > a",
+};

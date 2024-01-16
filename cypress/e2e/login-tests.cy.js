@@ -1,5 +1,5 @@
 import { mainPage } from "../support/pageObjects/mainPage";
-import { login } from "../support/pageObjects/loginPage";
+import { login } from "../support/pageObjects/loginPage"
 
 describe("Login tests", () => {
   beforeEach(() => {
@@ -18,4 +18,5 @@ describe("Login tests", () => {
     login.clickLoginButton();
     login.assertInvalidLogin();
   });
+
 });

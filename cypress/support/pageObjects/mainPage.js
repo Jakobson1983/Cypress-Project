@@ -9,6 +9,11 @@ export class MainPage {
     cy.get(mainPageSelectors.buttonLoginOrRegister).click();
     cy.contains("Returning Customer").should("be.visible");
   }
+  changeCurrency(currecny) {
+    cy.get(mainPageSelectors.dropdownCurrecny)
+    .contains(" US Dollar")
+    cy.contains(currecny).click({force: true});
+  }
 }
 
 export const mainPage = new MainPage();

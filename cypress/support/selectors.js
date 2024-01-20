@@ -1,5 +1,6 @@
 export const mainPageSelectors = {
   buttonLoginOrRegister: "#customernav",
+  dropdownCurrecny: '[class="dropdown hover"]'
 };
 
 export const loginSelectors = {
